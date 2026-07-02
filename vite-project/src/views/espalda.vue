@@ -1,14 +1,23 @@
 <template>
-  <q-page class="q-pa-md">
-    <div class="row items-center q-mb-lg">
-      <q-btn flat round icon="arrow_back" color="primary" :to="{ name: 'portada' }" />
-      <q-icon name="airline_seat_recline_normal" size="md" color="primary" class="q-ml-sm q-mr-xs" />
-      <h2 class="text-h4 text-weight-bold text-primary q-my-none">Rutina de Espalda</h2>
+  <q-page class="pagina-ejercicios">
+    <div class="encabezado-seccion q-pa-lg">
+      <q-btn flat round icon="arrow_back" color="white" :to="{ name: 'portada' }" class="q-mb-sm" />
+      <div class="row items-center q-gutter-sm">
+        <div class="icono-seccion">
+          <q-icon name="airline_seat_recline_normal" size="28px" color="white" />
+        </div>
+        <div>
+          <div class="text-overline text-green-4" style="letter-spacing:2px">RUTINA</div>
+          <h2 class="seccion-titulo">Espalda</h2>
+        </div>
+      </div>
     </div>
 
-    <div class="row q-col-gutter-lg">
-      <div v-for="ej in ejercicios" :key="ej.nombre" class="col-12 col-sm-6 col-md-3">
-        <EjercicioCard :ejercicio="ej" />
+    <div class="q-pa-lg">
+      <div class="row q-col-gutter-md">
+        <div v-for="ej in ejercicios" :key="ej.nombre" class="col-12 col-sm-6 col-md-3">
+          <EjercicioCard :ejercicio="ej" />
+        </div>
       </div>
     </div>
   </q-page>
@@ -18,33 +27,29 @@
 import EjercicioCard from '../components/EjercicioCard.vue'
 
 const ejercicios = [
-  {
-    nombre: 'Dominadas (Pull-ups)',
-    series: '4 Series x 8 Reps',
-    descanso: '120 seg descanso',
-    descripcion: 'El mejor ejercicio para lograr una espalda ancha en V. Agarre prono más ancho que los hombros, baja completamente entre repeticiones.',
-    videoId: 'eGo4IYlbE5g'
-  },
-  {
-    nombre: 'Remo con Barra',
-    series: '4 Series x 10 Reps',
-    descanso: '90 seg descanso',
-    descripcion: 'Aporta densidad al centro de la espalda y trapecios. Inclina el torso a 45° y lleva la barra hacia el ombligo con los codos pegados.',
-    videoId: '9efgcAjQe7E'
-  },
-  {
-    nombre: 'Jalón al Pecho en Polea',
-    series: '4 Series x 12 Reps',
-    descanso: '60 seg descanso',
-    descripcion: 'Variante ideal para trabajar los dorsales de forma controlada. Jala la barra al pecho mientras abres el pecho y arqueas levemente la espalda.',
-    videoId: 'CAwf7n6Luuc'
-  },
-  {
-    nombre: 'Remo en Polea Baja',
-    series: '3 Series x 12 Reps',
-    descanso: '60 seg descanso',
-    descripcion: 'Énfasis en la parte media-baja de la espalda con contracción sostenida. Mantén la espalda erguida y los codos cerca del cuerpo.',
-    videoId: 'GZbfZ033f74'
-  },
+  { nombre: 'Dominadas (Pull-ups)', series: '4 x 8 Reps', descanso: '120 seg', descripcion: 'El mejor ejercicio para lograr una espalda ancha en V. Agarre prono más ancho que los hombros, baja completamente.', videoId: 'eGo4IYlbE5g' },
+  { nombre: 'Remo con Barra', series: '4 x 10 Reps', descanso: '90 seg', descripcion: 'Aporta densidad al centro de la espalda. Inclina el torso a 45° y lleva la barra hacia el ombligo con codos pegados.', videoId: '9efgcAjQe7E' },
+  { nombre: 'Jalón al Pecho en Polea', series: '4 x 12 Reps', descanso: '60 seg', descripcion: 'Variante ideal para trabajar los dorsales de forma controlada. Jala hacia el pecho abriendo y arqueando levemente.', videoId: 'CAwf7n6Luuc' },
+  { nombre: 'Remo en Polea Baja', series: '3 x 12 Reps', descanso: '60 seg', descripcion: 'Énfasis en la parte media-baja de la espalda con contracción sostenida. Espalda erguida, codos cerca del cuerpo.', videoId: 'GZbfZ033f74' },
 ]
 </script>
+
+<style scoped>
+.pagina-ejercicios { background: #131313; min-height: 100vh; }
+.encabezado-seccion {
+  background: linear-gradient(135deg, #1a1a1a 0%, #0a1f0f 100%);
+  border-bottom: 2px solid #22c55e;
+}
+.icono-seccion {
+  width: 52px; height: 52px;
+  background: rgba(34,197,94,0.2);
+  border: 1px solid rgba(34,197,94,0.4);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+}
+.seccion-titulo {
+  font-size: 2rem; font-weight: 900;
+  color: white; margin: 0;
+  letter-spacing: -0.5px;
+}
+</style>
