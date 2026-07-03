@@ -14,8 +14,8 @@
     </div>
 
     <div class="q-pa-lg">
-      <div class="row q-col-gutter-md">
-        <div v-for="ej in ejercicios" :key="ej.nombre" class="col-12 col-sm-6 col-md-3">
+      <div class="row q-col-gutter-lg items-stretch">
+        <div v-for="ej in ejercicios" :key="ej.nombre" class="col-12 col-sm-6 col-md-6">
           <EjercicioCard :ejercicio="ej" />
         </div>
       </div>
