@@ -27,10 +27,10 @@
 import EjercicioCard from '../components/EjercicioCard.vue'
 
 const ejercicios = [
-  { nombre: 'Dominadas (Pull-ups)', series: '4 x 8 Reps', descanso: '120 seg', descripcion: 'El mejor ejercicio para lograr una espalda ancha en V. Agarre prono más ancho que los hombros, baja completamente.', videoId: 'eGo4IYlbE5g' },
-  { nombre: 'Remo con Barra', series: '4 x 10 Reps', descanso: '90 seg', descripcion: 'Aporta densidad al centro de la espalda. Inclina el torso a 45° y lleva la barra hacia el ombligo con codos pegados.', videoId: '9efgcAjQe7E' },
-  { nombre: 'Jalón al Pecho en Polea', series: '4 x 12 Reps', descanso: '60 seg', descripcion: 'Variante ideal para trabajar los dorsales de forma controlada. Jala hacia el pecho abriendo y arqueando levemente.', videoId: 'CAwf7n6Luuc' },
-  { nombre: 'Remo en Polea Baja', series: '3 x 12 Reps', descanso: '60 seg', descripcion: 'Énfasis en la parte media-baja de la espalda con contracción sostenida. Espalda erguida, codos cerca del cuerpo.', videoId: 'GZbfZ033f74' },
+  { nombre: 'Dominadas (Pull-ups)', series: '4 x 8 Reps', descanso: '120 seg', descripcion: 'El mejor ejercicio para lograr una espalda ancha en V. Agarre prono más ancho que los hombros, baja completamente.', videoId: 'D7z3g0Eg9BY' },
+  { nombre: 'Remo con Barra', series: '4 x 10 Reps', descanso: '90 seg', descripcion: 'Aporta densidad al centro de la espalda. Inclina el torso a 45° y lleva la barra hacia el ombligo con codos pegados.', videoId: 'zqmq0kBo8Fg' },
+  { nombre: 'Jalón al Pecho en Polea', series: '4 x 12 Reps', descanso: '60 seg', descripcion: 'Variante ideal para trabajar los dorsales de forma controlada. Jala hacia el pecho abriendo y arqueando levemente.', videoId: 'YrpgavWKjhI' },
+  { nombre: 'Remo en Polea Baja', series: '3 x 12 Reps', descanso: '60 seg', descripcion: 'Énfasis en la parte media-baja de la espalda con contracción sostenida. Espalda erguida, codos cerca del cuerpo.', videoId: 'renP8kf3Jis' },
 ]
 </script>
 

@@ -27,10 +27,10 @@
 import EjercicioCard from '../components/EjercicioCard.vue'
 
 const ejercicios = [
-  { nombre: 'Press de Banca Plano', series: '4 x 8 Reps', descanso: '120 seg', descripcion: 'El ejercicio rey para construir masa y fuerza en el pectoral mayor. Baja la barra hasta tocar el pecho y empuja explosivo.', videoId: 'rT7DgCr-3pg' },
-  { nombre: 'Press Inclinado con Mancuernas', series: '4 x 10 Reps', descanso: '90 seg', descripcion: 'Enfocado en la porción clavicular (pecho alto). Usa un ángulo de 30-45° para máximo reclutamiento.', videoId: '8iPEnn-ltC8' },
-  { nombre: 'Aperturas con Mancuernas', series: '3 x 12 Reps', descanso: '60 seg', descripcion: 'Permite un estiramiento máximo de las fibras pectorales. Mantén ligera flexión en codos y controla la bajada.', videoId: 'eozdVDA78K0' },
-  { nombre: 'Flexiones (Push-ups)', series: '3 x Al Fallo', descanso: '60 seg', descripcion: 'Excelente finalizador con peso corporal. Cuerpo rígido como tabla y baja hasta que el pecho casi toque el suelo.', videoId: '_l3ySVKYVJ8' },
+  { nombre: 'Press de Banca Plano', series: '4 x 8 Reps', descanso: '120 seg', descripcion: 'El ejercicio rey para construir masa y fuerza en el pectoral mayor. Baja la barra hasta tocar el pecho y empuja explosivo.', videoId: '2Ffy3nosW5g' },
+  { nombre: 'Press Inclinado con Mancuernas', series: '4 x 10 Reps', descanso: '90 seg', descripcion: 'Enfocado en la porción clavicular (pecho alto). Usa un ángulo de 30-45° para máximo reclutamiento.', videoId: 'UwMp8Zn1A3w' },
+  { nombre: 'Aperturas con Mancuernas', series: '3 x 12 Reps', descanso: '60 seg', descripcion: 'Permite un estiramiento máximo de las fibras pectorales. Mantén ligera flexión en codos y controla la bajada.', videoId: 'usedpcwdj1Y' },
+  { nombre: 'Flexiones (Push-ups)', series: '3 x Al Fallo', descanso: '60 seg', descripcion: 'Excelente finalizador con peso corporal. Cuerpo rígido como tabla y baja hasta que el pecho casi toque el suelo.', videoId: 'D_WkQKdSXwk' },
 ]
 </script>
 

@@ -60,7 +60,7 @@
           </q-item-section>
           <q-item-section class="text-weight-medium">{{ item.label }}</q-item-section>
           <q-item-section side>
-            <q-badge color="orange-9" text-color="white" label="4" rounded />
+            <q-badge color="purple" text-color="white" label="4" rounded />
           </q-item-section>
         </q-item>
       </q-list>
@@ -95,7 +95,7 @@ function toggleDrawer() {
 /* Header oscuro con acento naranja */
 .header-gym {
   background: #111111;
-  border-bottom: 3px solid #f97316;
+  border-bottom: 3px solid purple;
 }
 
 .logo-titulo {
@@ -109,10 +109,10 @@ function toggleDrawer() {
 }
 .logo-icono { font-size: 1.5rem; }
 .logo-texto { color: #fff; }
-.logo-accent { color: #f97316; }
+.logo-accent { color: purple; }
 
 .boton-header {
-  border: 1px solid rgba(249, 115, 22, 0.4);
+  border: 1px solid rgba(211, 22, 249, 0.4);
   border-radius: 8px;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -120,7 +120,7 @@ function toggleDrawer() {
 }
 .boton-header:hover {
   background: rgba(249, 115, 22, 0.15);
-  border-color: #f97316;
+  border-color: purple;
 }
 
 /* Drawer oscuro */
@@ -148,9 +148,9 @@ function toggleDrawer() {
 
 /* Item activo */
 :deep(.nav-activo) {
-  color: #f97316 !important;
+  color: purple !important;
   background: rgba(249, 115, 22, 0.15) !important;
-  border-left: 3px solid #f97316;
+  border-left: 3px solid purple;
 }
 
 /* Fondo del contenido */

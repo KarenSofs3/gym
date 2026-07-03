@@ -27,10 +27,10 @@
 import EjercicioCard from '../components/EjercicioCard.vue'
 
 const ejercicios = [
-  { nombre: 'Sentadillas con Barra', series: '4 x 10 Reps', descanso: '120 seg', descripcion: 'El ejercicio fundamental para cuádriceps, glúteos e isquiotibiales. La columna siempre en posición neutral.', videoId: 'ultWZbUMPL8' },
-  { nombre: 'Prensa de Piernas', series: '4 x 12 Reps', descanso: '90 seg', descripcion: 'Permite cargar mucho peso con menor estrés lumbar. La posición de los pies varía el músculo objetivo.', videoId: 'IZxyjW7MPJQ' },
-  { nombre: 'Zancadas con Mancuernas', series: '3 x 12 Reps', descanso: '60 seg', descripcion: 'Trabajo unilateral que mejora el equilibrio y la fuerza. Da un paso largo y baja la rodilla trasera casi al suelo.', videoId: 'L8fvypPrzzs' },
-  { nombre: 'Peso Muerto Rumano', series: '4 x 10 Reps', descanso: '90 seg', descripcion: 'Enfoque directo en femorales y glúteos. Mantén la barra cerca del cuerpo y empuja las caderas hacia atrás.', videoId: 'JCXUYuzwNrM' },
+  { nombre: 'Sentadillas con Barra', series: '4 x 10 Reps', descanso: '120 seg', descripcion: 'El ejercicio fundamental para cuádriceps, glúteos e isquiotibiales. La columna siempre en posición neutral.', videoId: 'JrSyaGuxSsQ' },
+  { nombre: 'Prensa de Piernas', series: '4 x 12 Reps', descanso: '90 seg', descripcion: 'Permite cargar mucho peso con menor estrés lumbar. La posición de los pies varía el músculo objetivo.', videoId: 'r2OfMuQvqbU' },
+  { nombre: 'Zancadas con Mancuernas', series: '3 x 12 Reps', descanso: '60 seg', descripcion: 'Trabajo unilateral que mejora el equilibrio y la fuerza. Da un paso largo y baja la rodilla trasera casi al suelo.', videoId: 'SzqcXhUn9D0' },
+  { nombre: 'Peso Muerto Rumano', series: '4 x 10 Reps', descanso: '90 seg', descripcion: 'Enfoque directo en femorales y glúteos. Mantén la barra cerca del cuerpo y empuja las caderas hacia atrás.', videoId: 'HNosAVcpsz4' },
 ]
 </script>
 

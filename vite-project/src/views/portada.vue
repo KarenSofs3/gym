@@ -25,7 +25,7 @@
 
     <!-- TARJETAS DE GRUPOS -->
     <div class="q-pa-lg">
-      <div class="text-overline text-orange-9 text-weight-bold q-mb-sm" style="letter-spacing:2px">
+      <div class="text-overline text-purple text-weight-bold q-mb-sm" style="letter-spacing:2px">
         SELECCIONA TU RUTINA
       </div>
       <div class="row q-col-gutter-md">
@@ -45,7 +45,7 @@
             <q-card-actions class="q-px-lg q-pb-lg q-pt-none">
               <q-btn
                 unelevated
-                color="orange-9"
+                color="purple"
                 label="Ver rutina"
                 icon-right="arrow_forward"
                 class="full-width boton-ver"
@@ -88,9 +88,9 @@ const navItems = [
 .hero-badge {
   display: inline-flex;
   align-items: center;
-  background: rgba(249, 115, 22, 0.15);
-  border: 1px solid rgba(249, 115, 22, 0.4);
-  color: #f97316;
+  background: rgba(222, 22, 249, 0.15);
+  border: 1px solid rgba(143, 22, 249, 0.4);
+  color: purple;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 2px;
@@ -106,7 +106,7 @@ const navItems = [
   letter-spacing: -1px;
   margin: 0 0 16px;
 }
-.hero-accent { color: #f97316; }
+.hero-accent { color: purple; }
 
 .hero-subtitulo {
   font-size: 1.1rem;
@@ -127,7 +127,7 @@ const navItems = [
 .stat-numero {
   font-size: 1.8rem;
   font-weight: 900;
-  color: #f97316;
+  color: purple;
   line-height: 1;
 }
 .stat-label {
@@ -149,7 +149,7 @@ const navItems = [
 .tarjeta-grupo:hover {
   transform: translateY(-6px);
   box-shadow: 0 20px 40px rgba(0,0,0,0.4);
-  border-color: #f97316;
+  border-color: purple;
 }
 
 .tarjeta-linea {
